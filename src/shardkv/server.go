@@ -1,11 +1,13 @@
 package shardkv
 
+// import "6.824/shardmaster"
+import (
+	"sync"
 
-// import "../shardmaster"
-import "../labrpc"
-import "../raft"
-import "sync"
-import "../labgob"
+	"6.824/labgob"
+	"6.824/labrpc"
+	"6.824/raft"
+)
 
 
 
